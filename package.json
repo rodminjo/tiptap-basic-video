@@ -1,0 +1,26 @@
+{
+  "name": "tiptap-basic-video",
+  "version": "1.0.0",
+  "description": "A basic video tag extension library for TipTap.",
+  "author": "rodminjo <rodminjo@gmail.com>",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/mjs/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/mjs/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "scripts": {
+    "build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup.sh"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@tiptap/core": "^2.9.1"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "^2.7.0"
+  }
+}
