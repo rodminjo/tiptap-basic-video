@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "lib": ["es5", "es6", "dom"],
+    "moduleResolution": "node",
+    "declaration": true,
+    "noEmit": false,
+    "rootDir": "./src"
+  },
+  "include": ["src/index.ts", "src/video.ts"]
+}
