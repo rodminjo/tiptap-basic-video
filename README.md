@@ -1,7 +1,8 @@
 # rodminjo/tiptap-basic-video
 
 
-![NPM Version](https://img.shields.io/npm/v/tiptap-basic-video)
+[![NPM Version](https://img.shields.io/npm/v/tiptap-basic-video)](https://www.npmjs.com/package/tiptap-basic-video)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/rodminjo/tiptap-basic-video)](https://github.com/rodminjo/tiptap-basic-video)
 [![License](https://img.shields.io/github/license/rodminjo/tiptap-basic-video)](https://github.com/rodminjo/tiptap-basic-video)
 
 ## Introduction

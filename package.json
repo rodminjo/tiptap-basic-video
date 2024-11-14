@@ -1,6 +1,6 @@
 {
   "name": "tiptap-basic-video",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A basic video tag extension library for TipTap.",
   "author": "rodminjo <rodminjo@gmail.com>",
   "license": "MIT",
@@ -26,5 +26,13 @@
   },
   "peerDependencies": {
     "@tiptap/core": "^2.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodminjo/tiptap-basic-video.git"
+  },
+  "keywords": [
+    "tiptap",
+    "video"
+  ]
 }
